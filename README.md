@@ -174,7 +174,11 @@ TNAGAR.HTML
 </html>
 ```
 # OUTPUT
-vkhbviykh
+
+![Uploading Screenshot 2024-12-05 110933.png…]()
+
+![Screenshot 2024-12-05 111024](https://github.com/user-attachments/assets/d6b992d4-3d1b-48bc-9fdf-8f9651094652)
+
 
 
 # RESULT
