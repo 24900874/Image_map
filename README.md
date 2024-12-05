@@ -174,14 +174,7 @@ TNAGAR.HTML
 </html>
 ```
 # OUTPUT
-![Uploading Screenshot 2024-12-05 110933.png…]()
-![Uploading Screenshot 2024-12-05 110953.png…]()
-![Uploading Screenshot 2024-12-05 111006.png…]()
-![Uploading Screenshot 2024-12-05 111024.png…]()
-
-
-
-
+vkhbviykh
 
 
 # RESULT
