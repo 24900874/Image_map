@@ -24,269 +24,163 @@ Execute the programs and publish them.
 
 # CODE
 ```
-<!DOCTYPE html>
-<html lang="en">
+MAP.HTML
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMAGE MAP</title>
+    <title>Chennai</title>
 </head>
-<body>
-    <img  src="C:\\Users\\Arun\\Pictures\\Screenshots\\Screenshot 2024-12-03 212847.png" width="1520" height="750" usemap="#mymap">
-    <map name="mymap">
-        <area shape="rect" coords="784,58,1080,138" title="Electronics store" href=file:///C:/Users/Arun/HTML%20PRACTICE/imap1.html>
-        <area shape="rect" coords="705,276,889,383" title="Medical store" href=file:///C:/Users/Arun/HTML%20PRACTICE/imap2.html>
-        <area shape="rect" coords="299,580,473,679" title="Book store" href=file:///C:/Users/Arun/HTML%20PRACTICE/imap3.html>
-    </map>
-</body>
-</html>
+<body bgcolor="ffffff">
 
-mohan electic store.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohan Electric Store</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #004080;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .banner {
-            width: 100%;
-            height: auto;
-        }
-        .container {
-            padding: 20px;
-        }
-        .product {
-            margin: 20px 0;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        .product img {
-            max-width: 200px;
-            margin-right: 20px;
-            float: left;
-        }
-        .product h3 {
-            margin-top: 0;
-        }
-        footer {
-            background-color: #004080;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
+    <table align="center" width="100%" bgcolor="#0077b6">
+        <tr>
+            <td align="center">
+                <h1><font color="white">Chennai</font></h1>
+                <b><font color="white">A Tapestry of Tradition, Heartfelt Connections, and Timeless Charm</font></b>
+             <b><font color="white"> - GEETHAPRIYAN A S (24900874)</b></td></font>
+            </td>
+        </tr>
+    </table>
+    <hr>
+       <img src="map.png" usemap="#image-map">
 
-<header>
-    <h1>Welcome to Mohan Electric Store</h1>
-    <p>Your one-stop shop for all your electric needs</p>
-</header>
-
-<img class="banner" src="C:\\Users\\Arun\\Documents\\electronics store.jpg" alt="Electric Store Banner">
-
-<div class="container">
-    <h2>Our Products</h2>
-
-    <div class="product">
-        <p>Mohan Electronics Store is a trusted and customer-friendly destination for all your electronic needs. Established with the vision of providing high-quality products at affordable prices, the store offers a wide range of gadgets, including smartphones, laptops, headphones, smartwatches, and tablets. Known for its excellent customer service and reliable after-sales support, Mohan Electronics Store ensures a seamless shopping experience. Whether you're a tech enthusiast looking for the latest devices or someone in need of everyday electronics, the store caters to all requirements with competitive pricing and attractive deals. With a commitment to innovation and customer satisfaction, Mohan Electronics Store has become a go-to choice for electronics in the community.</p>
-    </div>
-
-    <h2>Contact Us</h2>
-    <p><strong>Address:</strong> Electric Avenue,Ramnadu</p>
-    <p><strong>Phone:</strong>9874563210</p>
-    <p><strong>Email:</strong> contact@mohanelectric.com</p>
-</div>
-
-<footer>
-    <p>&copy; 2024 Mohan Electric Store. All rights reserved.</p>
-</footer>
+<map name="image-map">
+    <area target="" alt="" title="" href="egmore.html" coords="928,487,1116,591" shape="rect">
+    <area target="" alt="" title="" href="marina.html" coords="1097,612,1317,703" shape="rect">
+    <area target="" alt="" title="" href="mylapore.html" coords="996,709,1124,780" shape="rect">
+    <area target="" alt="" title="" href="railmuseum.html" coords="471,306,772,413" shape="rect">
+    <area target="" alt="" title="" href="tnagar.html" coords="769,672,950,767" shape="rect">
+    
+</map>
+    
 
 </body>
 </html>
 
-saravana medical store.html
-<!DOCTYPE html>
-<html lang="en">
+EGMORE.HTML
+
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medical Store</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        header {
-            background-color: #4caf50;
-            color: white;
-            padding: 15px 20px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-            max-width: 800px;
-            margin: 20px auto;
-            background: #ffffff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        .contact {
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #e8f5e9;
-            border-left: 5px solid #4caf50;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #4caf50;
-            color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+  <title>egmore</title>
 </head>
 <body>
-    <header>
-        <h1>Saravana Medical Store</h1>
-    </header>
-    <main>
-        <img src="C:\\Users\\Arun\\Documents\\medical store.jpg" alt="Medical Store Image">
-        <h2>About Us</h2>
-        <p>Welcome to Saravana Medical Store, your trusted partner for quality medicines and healthcare products. We provide a wide range of prescription and over-the-counter medications, health supplements, and medical equipment. Our dedicated team ensures the highest standards of service and care.</p>
-        <h3>Why Choose Us?</h3>
-        <ul>
-            <li>Authentic and certified medicines</li>
-            <li>Friendly and knowledgeable staff</li>
-            <li>Convenient location and home delivery services</li>
-            <li>24/7 customer support for emergencies</li>
-        </ul>
-        <div class="contact">
-            <h3>Contact Us</h3>
-            <p><strong>Address:</strong> Wellness Street,Ramnadu</p>
-            <p><strong>Phone:</strong>9632014587</p>
-            <p><strong>Email:</strong> info@saravanamedical.com</p>
-            <p><strong>Opening Hours:</strong> Mon-Sun: 8:00 AM - 10:00 PM</p>
-        </div>
-    </main>
-    <footer>
-        &copy; 2024 Saravana Medical Store. All Rights Reserved.
-    </footer>
+    <body bgcolor="#E1E8ED"></body>
+    <h1 align="center">
+        <font color=black><b> Egmore
+            </b></font>
+        </h1>
+        <h3 align="center">
+        <font color=black><b> A Blend of History and Modernity -
+ Exploring the Heritage and Vibrancy of One of Chennai's Iconic Neighborhoods
+             </b></font></h3>
+        
+              
+        <p>
+        <li>Egmore, located in the heart of Chennai, is a bustling neighborhood rich in history and culture. Known for its architectural landmarks, it houses the iconic Egmore Railway Station, which is one of the oldest and busiest train hubs in Chennai, linking travelers from across the state and country. The station’s colonial architecture, marked by high arches and intricate detailing, reflects the British influence in the region. Egmore also boasts the Government Museum, one of India’s oldest museums, with its grand red buildings and vast collections that span from ancient art and archaeology to zoology. Walking through Egmore’s streets, one encounters a blend of modern development and historical charm.
+        </li>
+        <li>The Government Museum in Egmore is one of its most significant attractions, offering visitors a fascinating glimpse into the rich cultural heritage of India. Established in 1851, the museum holds an impressive array of artifacts, from rare bronze idols and ancient coins to traditional South Indian sculptures. Among its most remarkable exhibits is the Bronze Gallery, where visitors can view intricate Chola bronzes, representing the fine art of metal casting that thrived in South India centuries ago. The museum is also home to a children's museum and a large library, making it a popular destination for families, history enthusiasts, and researchers alike.
+        </li>
+        <li>Egmore is also a lively commercial and residential hub, surrounded by shopping complexes, eateries, and educational institutions. The area is famous for its mix of traditional South Indian and international cuisine, from local street food to upscale restaurants that attract food lovers from all over Chennai. Amidst the bustling streets, Egmore historical buildings and cultural centers provide a peaceful escape, balancing the vibrant atmosphere of the area with pockets of tranquility. With its unique combination of heritage and urban life, Egmore continues to be a cherished neighborhood, blending Chennai history with its present-day vigor.
+       </li>
+    </ul>
+    </p>
+      </td>
+    </tr>
+  </table>
+
 </body>
 </html>
 
-book store.html
 
-<!DOCTYPE html>
-<html lang="en">
+MARINA.HTML
+
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Haven</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f7f3e9;
-            color: #333;
-        }
-        header {
-            background-color: #6c5ce7;
-            color: white;
-            padding: 15px 20px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-            max-width: 800px;
-            margin: 20px auto;
-            background: #ffffff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            border-radius: 8px;
-        }
-        img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-        .contact {
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #e3d9fc;
-            border-left: 5px solid #6c5ce7;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #6c5ce7;
-            color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>marina</title>
+  </head>
+  <body>
+      <body bgcolor="#E1E8ED"></body>
+      <h1 align="center">
+          <font color=black><b> Marina Beach</b></font>
+          </h1>
+          <h3 align="center">
+          <font color=black><b>  The Beloved Coastal Escape of Chennai</b></font></h3>
+          <p>
+          <li>Marina Beach: A Picturesque Coastal Landmark
+          Marina Beach, located in the heart of Chennai, Tamil Nadu, is one of the longest urban beaches in the world, stretching over 13 kilometers along the Bay of Bengal. It is a popular destination for both locals and tourists, offering a tranquil escape from the hustle and bustle of city life. The beach is renowned for its golden sands, picturesque views, and vibrant atmosphere, making it a beloved spot for early morning walks, evening strolls, and family outings. With a wide promenade, numerous food stalls, and recreational activities, Marina Beach provides a perfect blend of natural beauty and urban conveniences.
+          </li>
+          <li>Cultural and Historical Significance
+          In addition to its natural beauty, Marina Beach holds cultural and historical significance. The beach is home to several important landmarks, including the MGR Memorial and the Anna Memorial, which honor two of Tamil Nadu's most beloved leaders, M. G. Ramachandran and C. N. Annadurai. The iconic light house at the northern end of the beach offers panoramic views of the coastline and the city, adding to the charm of the area. Historically, Marina Beach has also been a witness to significant events, such as political protests, public celebrations, and traditional rituals, making it an integral part of Chennai social fabric.
+          </li>
+          <li>Marine Life and Conservation Efforts
+          Marina Beach is not only a tourist attraction but also an important site for marine life, particularly for sea turtles. The beach serves as a nesting ground for the endangered Olive Ridley sea turtles, and efforts have been made by local organizations to protect these creatures. While the beach faces challenges from urbanization, pollution, and coastal erosion, conservation efforts are being implemented to preserve its natural ecosystem. Awareness campaigns, cleanup drives, and collaborations with environmental groups aim to maintain the ecological balance of the beach while ensuring its sustainability as a public space for recreation and wildlife conservation.
+         </li>
+      </p>
+    </body>
+  </html>
+
+
+RAILMUSEUM.HTML
+
+<html>
+<head>
+  <title>rail</title>
 </head>
 <body>
-    <header>
-        <h1>Aruna Book Store</h1>
-    </header>
-    <main>
-        <img src="C:\\Users\\Arun\\Documents\\book store.jpg" alt="Bookstore Image">
-        <h2>Welcome to Aruna Book Store</h2>
-        <p>Your one-stop destination for a wide range of books! At Book Haven, we believe in the power of stories to inspire, educate, and entertain. Whether you’re a fan of fiction, non-fiction, academic textbooks, or rare collectibles, we have something for everyone.</p>
-        <h3>Why Shop With Us?</h3>
-        <ul>
-            <li>A vast collection of books across all genres</li>
-            <li>Affordable prices and great deals</li>
-            <li>Friendly staff to assist you in finding the perfect read</li>
-            <li>Book clubs and author meet-ups</li>
-        </ul>
-        <div class="contact">
-            <h3>Contact Us</h3>
-            <p><strong>Address:</strong> Literary Lane,Ramnadu</p>
-            <p><strong>Phone:</strong>9510236547</p>
-            <p><strong>Email:</strong> info@arunabookstore.com</p>
-            <p><strong>Opening Hours:</strong> Mon-Sat: 9:00 AM - 8:00 PM, Sun: 10:00 AM - 6:00 PM</p>
-        </div>
-    </main>
-    <footer>
-        &copy; 2024 Aruna Book Store. All Rights Reserved.
-    </footer>
+    <body bgcolor="#E1E8ED"></body>
+    <h1 align="center">
+        <font color=black><b>  Chennai Rail Museum </b></font>
+            </b></font>
+        </h1>
+        <h3 align="center">
+        <font color=black><b>A Journey Through Time -
+            Exploring the Legacy of India's Railways and Their Impact on Southern India
+        <p>
+        <li>The Chennai Rail Museum, located in the heart of the city, is a fascinating destination for railway enthusiasts and history buffs alike. Established in 2002, the museum showcases the rich history of India's railway system, with a particular focus on the Southern Railway. The museum collection includes a wide range of locomotives, carriages, and other artifacts that illustrate the evolution of rail transport in India. Visitors can explore the evolution of trains, from the early steam locomotives to the more modern electric and diesel engines, each piece telling a unique story about the industrial growth of the country and technological advancements.
+        </li>
+        <li>One of the museum's key highlights is the presence of several vintage trains that have been preserved in their original form, offering a glimpse into the past. The star attraction is the 1800s-era steam locomotive, which has been meticulously restored to reflect its authentic design. In addition to the locomotives, the museum also houses rare railway artifacts such as old signal systems, tickets, uniforms, and photographs that provide a deeper understanding of the working life of the Indian Railways. Interactive displays and informative exhibits allow visitors to learn about the history of train travel and its impact on India social and economic development.
+        </li>
+        <li>The museum also offers a more hands-on experience with a toy train ride, which is a hit among families and children. It takes visitors on a short journey around the museum premises, providing an exciting way to explore the different sections of the collection. With its extensive exhibits, educational programs, and well-maintained environment, the Chennai Rail Museum provides a perfect blend of history and entertainment. It is a must-visit for anyone interested in the legacy of Indian railways and offers a unique experience that highlights the significant role rail transport has played in shaping the country.
+    </li>
+    </p>
+</body>
+</html>
+
+
+TNAGAR.HTML
+
+
+<html>
+<head>
+  <title>tnagar</title>
+</head>
+<body>
+    <body bgcolor="#E1E8ED"></body>
+    <h1 align="center">
+        <font color=black><b>TNagar</b></font>
+            </b></font>
+        </h1>
+        <h3 align="center">
+        <font color=black><b>  The Heart of Chennai's Commerce and Culture -Exploring the Vibrancy, History, and Shopping Paradise of Thyagaraya Nagar
+        <p>
+        <li>T. Nagar (Thyagaraya Nagar) is one of the most bustling and iconic neighborhoods in Chennai, renowned for its vibrant culture, historical significance, and bustling markets. Located in the heart of the city, T. Nagar is a hub of commerce and activity, attracting both locals and visitors alike. The area is primarily known for its thriving shopping district, where a wide array of stores sell everything from traditional Indian textiles, jewelry, and handicrafts to modern clothing and electronics. The famous Ranganathan Street is the epicenter of T. Nagar shopping scene, with its narrow lanes packed with shops and street vendors offering products at competitive prices.
+        </li>
+        <li>In addition to its commercial appeal, T. Nagar has deep cultural roots. The area is also known for its vibrant celebration of festivals, especially during Tamil New Year, Pongal, and Deepavali, when the streets come alive with lights, decorations, and traditional events. T. Nagars rich cultural atmosphere is complemented by its proximity to important landmarks like the Kodambakkam and Mambalam neighborhoods, further enhancing its role as a cultural and commercial epicenter of Chennai.
+        </li>
+        <li>Over the years, T. Nagar has transformed into a dynamic and cosmopolitan neighborhood, blending its historical charm with the modern demands of urbanization. While the area is often associated with its shopping frenzy, it also offers a variety of other services, including healthcare, education, and dining. The diversity and energy of T. Nagar make it an exciting and essential part of Chennai, with something for everyone, whether they are looking for a glimpse of tradition or the latest trends.
+    </li>
+
+    </p>
 </body>
 </html>
 ```
 # OUTPUT
-![Screenshot 2024-12-04 214602](https://github.com/user-attachments/assets/223ef8f9-6284-4cb7-9a9d-091a42f25a21)
-![Screenshot 2024-12-04 214810](https://github.com/user-attachments/assets/da3dd297-e89a-447b-a6d5-1921d9523a71)
-![Screenshot 2024-12-04 214822](https://github.com/user-attachments/assets/45bdb5dc-a2e2-43ce-9776-a8e13ba99d68)
-![Screenshot 2024-12-04 214937](https://github.com/user-attachments/assets/1fb1091e-5986-4234-916d-3fbf1ecdabf6)
-![Screenshot 2024-12-04 215100](https://github.com/user-attachments/assets/afd1e9d4-9fca-4a84-94f8-c7de34b1becd)
+![Uploading Screenshot 2024-12-05 110933.png…]()
+![Uploading Screenshot 2024-12-05 110953.png…]()
+![Uploading Screenshot 2024-12-05 111006.png…]()
+![Uploading Screenshot 2024-12-05 111024.png…]()
+
+
+
 
 
 
